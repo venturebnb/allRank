@@ -73,3 +73,14 @@ allrank/config.json
 task-data
 dummy_data
 
+.venv/
+*.pyc
+
+!data/.gitkeep
+data/*
+
+!output/model/.gitkeep
+output/model/*
+
+!output/tensorboard
+output/tensorboard/*

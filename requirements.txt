@@ -2,9 +2,23 @@
 pytest
 
 # Lint and code style
-flake8>=3.3.0
-flake8-blind-except==0.1.1
-flake8-debugger==1.4.0
-flake8-print==2.0.2
-flake8-tuple==0.2.13
-mypy==0.790
+flake8
+flake8-blind-except
+flake8-debugger
+flake8-print
+flake8-tuple
+mypy
+
+numpy==2.0.2
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+torch==2.5.1
+jupyter
+torchvision
+pymongo==4.10.1
+
+tensorflow==2.18.0
+tensorflow-hub==0.16.1
+
+gcsfs
